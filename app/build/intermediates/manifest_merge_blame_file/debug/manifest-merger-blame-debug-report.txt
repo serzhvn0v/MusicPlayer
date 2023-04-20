@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.harshRajpurohit.musicPlayer"
+4    android:versionCode="8"
+5    android:versionName="4.0.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+11-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:6:5-8:40
+12-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:7:9-65
+13    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+13-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:9:5-77
+13-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:9:22-74
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:10:5-67
+14-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:10:22-64
+15
+16    <permission
+16-->[androidx.core:core:1.9.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+17        android:name="com.harshRajpurohit.musicPlayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+17-->[androidx.core:core:1.9.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+18        android:protectionLevel="signature" />
+18-->[androidx.core:core:1.9.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+19
+20    <uses-permission android:name="com.harshRajpurohit.musicPlayer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+20-->[androidx.core:core:1.9.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+20-->[androidx.core:core:1.9.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+21
+22    <application
+22-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:12:5-79:19
+23        android:name="com.harshRajpurohit.musicPlayer.ApplicationClass"
+23-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:13:9-41
+24        android:allowBackup="true"
+24-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:14:9-35
+25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+25-->[androidx.core:core:1.9.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+26        android:debuggable="true"
+27        android:icon="@mipmap/music_player_icon_foreground"
+27-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:15:9-60
+28        android:label="@string/app_name"
+28-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:16:9-41
+29        android:requestLegacyExternalStorage="true"
+29-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:17:9-52
+30        android:roundIcon="@mipmap/music_player_icon_round"
+30-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:18:9-60
+31        android:supportsRtl="true"
+31-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:19:9-35
+32        android:testOnly="true"
+33        android:theme="@style/splash_screen" >
+33-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:20:9-45
+34        <activity
+34-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:22:9-24:40
+35            android:name="com.harshRajpurohit.musicPlayer.PlayNext"
+35-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:23:13-37
+36            android:exported="false" />
+36-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:24:13-37
+37        <activity
+37-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:25:9-28:56
+38            android:name="com.harshRajpurohit.musicPlayer.AboutActivity"
+38-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:26:13-42
+39            android:screenOrientation="portrait" />
+39-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:27:13-49
+40        <activity
+40-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:29:9-32:56
+41            android:name="com.harshRajpurohit.musicPlayer.SettingsActivity"
+41-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:30:13-45
+42            android:screenOrientation="portrait" />
+42-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:31:13-49
+43        <activity
+43-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:33:9-36:56
+44            android:name="com.harshRajpurohit.musicPlayer.SelectionActivity"
+44-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:34:13-46
+45            android:screenOrientation="portrait" />
+45-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:35:13-49
+46        <activity
+46-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:37:9-40:56
+47            android:name="com.harshRajpurohit.musicPlayer.PlaylistDetails"
+47-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:38:13-44
+48            android:screenOrientation="portrait" />
+48-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:39:13-49
+49        <activity
+49-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:41:9-59:20
+50            android:name="com.harshRajpurohit.musicPlayer.PlayerActivity"
+50-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:42:13-43
+51            android:configChanges="uiMode"
+51-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:43:13-43
+52            android:exported="true"
+52-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:44:13-36
+53            android:launchMode="singleTask"
+53-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:45:13-44
+54            android:noHistory="true"
+54-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:46:13-37
+55            android:screenOrientation="portrait" >
+55-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:47:13-49
+56            <intent-filter>
+56-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:49:13-58:29
+57                <action android:name="android.intent.action.VIEW" />
+57-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:50:17-69
+57-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:50:25-66
+58
+59                <category android:name="android.intent.category.BROWSABLE" />
+59-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:52:17-78
+59-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:52:27-75
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:53:17-76
+60-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:53:27-73
+61
+62                <data
+62-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:55:17-57:48
+63                    android:mimeType="audio/*"
+63-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:56:21-47
+64                    android:scheme="content" />
+64-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:57:21-45
+65            </intent-filter>
+66        </activity>
+67        <activity
+67-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:60:9-72:20
+68            android:name="com.harshRajpurohit.musicPlayer.MainActivity"
+68-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:61:13-41
+69            android:configChanges="uiMode"
+69-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:62:13-43
+70            android:exported="true"
+70-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:63:13-36
+71            android:launchMode="singleTask"
+71-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:65:13-44
+72            android:screenOrientation="portrait" >
+72-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:64:13-49
+73            <intent-filter>
+73-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:67:13-71:29
+74                <action android:name="android.intent.action.MAIN" />
+74-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:68:17-69
+74-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:68:25-66
+75
+76                <category android:name="android.intent.category.LAUNCHER" />
+76-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:70:17-77
+76-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:70:27-74
+77            </intent-filter>
+78        </activity>
+79
+80        <service android:name="com.harshRajpurohit.musicPlayer.MusicService" />
+80-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:74:9-49
+80-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:74:18-46
+81
+82        <receiver
+82-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:76:9-78:38
+83            android:name="com.harshRajpurohit.musicPlayer.NotificationReceiver"
+83-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:77:13-49
+84            android:enabled="true" />
+84-->C:\Users\victus\Desktop\MusicPlayer\app\src\main\AndroidManifest.xml:78:13-35
+85
+86        <provider
+86-->[androidx.emoji2:emoji2:1.2.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+87            android:name="androidx.startup.InitializationProvider"
+87-->[androidx.emoji2:emoji2:1.2.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+88            android:authorities="com.harshRajpurohit.musicPlayer.androidx-startup"
+88-->[androidx.emoji2:emoji2:1.2.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+89            android:exported="false" >
+89-->[androidx.emoji2:emoji2:1.2.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+90            <meta-data
+90-->[androidx.emoji2:emoji2:1.2.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+91                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+91-->[androidx.emoji2:emoji2:1.2.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+92                android:value="androidx.startup" />
+92-->[androidx.emoji2:emoji2:1.2.0] C:\Users\victus\gradle-8.0.2\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+93            <meta-data
+93-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\victus\gradle-8.0.2\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+94                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+94-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\victus\gradle-8.0.2\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+95                android:value="androidx.startup" />
+95-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\victus\gradle-8.0.2\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+96        </provider>
+97    </application>
+98
+99</manifest>
